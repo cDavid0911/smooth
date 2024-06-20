@@ -20,7 +20,7 @@ public class DataSource
         using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
         {
             Delimiter = ";",
-            HasHeaderRecord = false // CSV file doesn't have a header
+            HasHeaderRecord = false // CSV file doesn't have a header аееееее
         }))
         {
             DateTime? lastDate = null;
